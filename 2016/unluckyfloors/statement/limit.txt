@@ -1,0 +1,1 @@
+Time Limit has been reduced to 2.0s as server is faster than NOI server.
