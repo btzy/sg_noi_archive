@@ -39,8 +39,8 @@ void exitWithCode(int code){
 }
 int main(int argc, char **argv){
     FILE *input = fopen(argv[1], "r");
-    FILE *testOutput = fopen(argv[3], "r");
     FILE *output = fopen(argv[2], "r");
+    FILE *testOutput = fopen(argv[3], "r");
     int N, Q; fscanf(input, "%d%d", &N, &Q);
     int checkInt; fscanf(output, "%d", &checkInt);
     bool impossible = checkInt == -1;

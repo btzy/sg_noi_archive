@@ -20,8 +20,8 @@ void exitWithCode(int code){
 int main(int argc, char * argv[])
 {
     FILE *input = fopen(argv[1], "r");  //input
-    FILE *testOutput = fopen(argv[3], "r"); //user output
     FILE *output = fopen(argv[2], "r"); //tc output
+    FILE *testOutput = fopen(argv[3], "r"); //user output
     fscanf(input, "%d", &N);
     for (int i = 0, x, y; i < N; ++i) {
         fscanf(input, "%d%d", &x, &y);
